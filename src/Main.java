@@ -54,43 +54,33 @@ public class Main {
         var newTime = work / moreemployee;
         System.out.println( "Если в компании работает " + moreemployee + " человек, то всего " + newTime + " часов работы может быть поделено между сотрудниками");
 
+
+        // Task 1
         byte a = 1;
-        System.out.println(a);
+        System.out.println("Значение переменной a с типом  byte равно "  + a );
         short b = 555;
-        System.out.println(b);
+        System.out.println("Значение переменной b с типом  short равно "  + b );
         int c = 2000000;
-        System.out.println(c);
-        long d = 500_000_000L;
-        System.out.println(d);
+        System.out.println("Значение переменной c с типом  int равно "  + c );
+        long d = 500_000_000_000L;
+        System.out.println("Значение переменной d с типом  long равно "  + d );
         float e = 31.2f;
-        System.out.println(e);
+        System.out.println("Значение переменной e с типом  float равно "  + e );
         double f = 555.123456789;
-        System.out.println(f);
+        System.out.println("Значение переменной f с типом  double равно "  + f );
 
-
+        // Task 2
         byte g = 67;
-        System.out.println(g);
-
         short h = -159;
-        System.out.println(h);
-
         int i = 569;
-        System.out.println(i);
-
         int j = 27897;
-        System.out.println(j);
-
         long k = 987_678_965_549L;
-        System.out.println(k);
-
         float l = 27.12f;
-        System.out.println(l);
-
         double m = 2.786;
-        System.out.println(m);
 
 
 
+        // Task 3
         int teacherLydmilaPavlodna = 23;
         int teacherAnnaSergeevna = 27;
         int teacherEkaterinaAndreevna = 30;
@@ -100,7 +90,7 @@ public class Main {
         int sheetsToEach = sheet / totalStudents;
         System.out.println("На каждого ученика рассчитано " + sheetsToEach + " листов бумаги" );
 
-
+        // Task 4
         int productivity = 16;
         int inAMinute = productivity / 2;
         System.out.println(inAMinute);
@@ -113,11 +103,11 @@ public class Main {
         int bottleMonth = bottleDay * 30;
         System.out.println("За месяц " + " машина произвела " + bottleMonth + " бутылок");
 
-
-        int color = 120;
+        // Task 5
+        int totalColor = 120;
         int jarsOnOneClass = 2  + 4 ;
         System.out.println(jarsOnOneClass);
-        int howClasses = color / jarsOnOneClass;
+        int howClasses = totalColor / jarsOnOneClass;
         System.out.println(howClasses);
         int whiteColor = howClasses * 2;
         System.out.println(whiteColor);
@@ -125,7 +115,7 @@ public class Main {
         System.out.println(brownColor);
         System.out.println("В школе, где " + howClasses + " классов, нужно " + whiteColor + " банок белой краски и " + brownColor + " банок коричневой краски");
 
-
+        // Task 6
         float weightBanana = 5 * 80;
         float weightMilk = 2*105;
         float weightAceCream = 2 * 100;
@@ -135,7 +125,7 @@ public class Main {
         float breakfastKg = breakfast / 1000;
         System.out.println("Вес всего завтрака " + breakfastKg + " кг");
 
-
+        // Task 7
         int loseWeightGr = 7 * 1000;
         System.out.println(loseWeightGr);
         int loseWeightSlow = loseWeightGr / 250;
@@ -145,7 +135,7 @@ public class Main {
         int loseWeightAverage = loseWeightGr / ((250 + 500) / 2);
         System.out.println(loseWeightAverage + " дней потребуется на похудение в среднем");
 
-
+        // Task 8
         int salaryMasha = 67760;
         int newSalaryMasha = salaryMasha + (salaryMasha / 10);
         int annualIncomeMashaOld = 67760 * 12;
