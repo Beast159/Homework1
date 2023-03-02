@@ -22,9 +22,9 @@ public class Main {
 
         var friend = 19;
         System.out.println(friend);
-        friend = friend+2;
+        friend = friend + 2;
         System.out.println(friend);
-        friend = friend/7;
+        friend = friend / 7;
         System.out.println(friend);
 
         var frog = 3.5;
@@ -48,26 +48,26 @@ public class Main {
         var work = 640;
         var time = 8;
         var employee = work / time;
-        System.out.println( "Всего работников в компании " + employee + " человек");
+        System.out.println("Всего работников в компании " + employee + " человек");
         var moreemployee = employee + 94;
         System.out.println(moreemployee);
         var newTime = work / moreemployee;
-        System.out.println( "Если в компании работает " + moreemployee + " человек, то всего " + newTime + " часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " + moreemployee + " человек, то всего " + newTime + " часов работы может быть поделено между сотрудниками");
 
 
         // Task 1
         byte a = 1;
-        System.out.println("Значение переменной a с типом  byte равно "  + a );
+        System.out.println("Значение переменной a с типом  byte равно " + a);
         short b = 555;
-        System.out.println("Значение переменной b с типом  short равно "  + b );
+        System.out.println("Значение переменной b с типом  short равно " + b);
         int c = 2000000;
-        System.out.println("Значение переменной c с типом  int равно "  + c );
+        System.out.println("Значение переменной c с типом  int равно " + c);
         long d = 500_000_000_000L;
-        System.out.println("Значение переменной d с типом  long равно "  + d );
+        System.out.println("Значение переменной d с типом  long равно " + d);
         float e = 31.2f;
-        System.out.println("Значение переменной e с типом  float равно "  + e );
+        System.out.println("Значение переменной e с типом  float равно " + e);
         double f = 555.123456789;
-        System.out.println("Значение переменной f с типом  double равно "  + f );
+        System.out.println("Значение переменной f с типом  double равно " + f);
 
         // Task 2
         byte g = 67;
@@ -79,7 +79,6 @@ public class Main {
         double m = 2.786;
 
 
-
         // Task 3
         int teacherLydmilaPavlodna = 23;
         int teacherAnnaSergeevna = 27;
@@ -88,7 +87,7 @@ public class Main {
         int totalStudents = teacherLydmilaPavlodna + teacherAnnaSergeevna + teacherEkaterinaAndreevna;
         System.out.println(totalStudents);
         int sheetsToEach = sheet / totalStudents;
-        System.out.println("На каждого ученика рассчитано " + sheetsToEach + " листов бумаги" );
+        System.out.println("На каждого ученика рассчитано " + sheetsToEach + " листов бумаги");
 
         // Task 4
         int productivity = 16;
@@ -105,7 +104,7 @@ public class Main {
 
         // Task 5
         int totalColor = 120;
-        int jarsOnOneClass = 2  + 4 ;
+        int jarsOnOneClass = 2 + 4;
         System.out.println(jarsOnOneClass);
         int howClasses = totalColor / jarsOnOneClass;
         System.out.println(howClasses);
@@ -117,7 +116,7 @@ public class Main {
 
         // Task 6
         float weightBanana = 5 * 80;
-        float weightMilk = 2*105;
+        float weightMilk = 2 * 105;
         float weightAceCream = 2 * 100;
         float weightEgg = 4 * 70;
         float breakfast = weightBanana + weightMilk + weightAceCream + weightEgg + weightEgg;
@@ -161,6 +160,112 @@ public class Main {
         System.out.println("Годовой доход Кристины вырос на " + annualIncomeGrowthKristina + " рублей");
 
 
+        // Условный оператор:  Task 1
+        int age = 22;
+        if (age >= 18) {
+            System.out.println("Если возраст человека равен " + age + ", то ты совершеннолетний ");
+        } else {
+            System.out.println("Если возраст человека равен " + age + ", то ты не достиг совершеннолетия, нужно немного подождать");
+        }
+        int age1 = 15;
+        if (age1 >= 18) {
+            System.out.println("Если возраст человека равен " + age1 + ", то ты совершеннолетний ");
+        } else {
+            System.out.println("Если возраст человека равен " + age1 + ", то ты не достиг совершеннолетия, нужно немного подождать");
+        }
 
+
+        // Task 2
+        int temperature = 15;
+        if (temperature <= 5) {
+            System.out.println("На улице " + temperature + ", нужно надеть шапку ");
+        } else {
+            System.out.println("На улице " + temperature + ", можно идти без шапки");
+        }
+        int temperature1 = 2;
+        if (temperature1 <= 5) {
+            System.out.println("На улице " + temperature1 + ", нужно надеть шапку ");
+        } else {
+            System.out.println("На улице " + temperature1 + ", можно идти без шапки");
+        }
+
+        // Task 3
+        int speed = 75;
+        if (speed >= 60) {
+            System.out.println("Если скорость " + speed + ", придется заплатить штраф");
+        } else {
+            System.out.println("Если скорость " + speed + ", можно ездить спокойно");
+        }
+        int speed1 = 49;
+        if (speed1 >= 60) {
+            System.out.println("Если скорость " + speed1 + ", придется заплатить штраф");
+        } else {
+            System.out.println("Если скорость " + speed1 + ", можно ездить спокойно");
+        }
+        // Task4
+        int age2 = 26;
+        if (age2 > 2 && age2 < 6) {
+            System.out.println("Если тебе сейчас " + age2 + ", то тебе нужно ходить в детский сад");
+        } else {
+            if (age2 > 7 && age2 < 18) {
+                System.out.println("Если тебе сейчас " + age2 + ", то тебе нужно ходить в школу");
+            } else {
+                if (age2 > 18 && age2 < 24) {
+                    System.out.println("Если тебе сейчас " + age2 + ", то тебе нужно ходить в университет");
+                } else {
+                    if (age2 > 24) {
+                        System.out.println("Если тебе сейчас " + age2 + ", то лафа закончилась - иди работай");
+                    }
+                }
+
+            }
+        }
+
+        //Task 5
+
+        int age3 = 4;
+        if (age3 < 5) {
+            System.out.println("Если тебе сейчас " + age3 + ", то тебе нельзя кататься на аттракционе");
+        } else {
+            if (age3 > 5 && age3 < 14) {
+                System.out.println("Если тебе сейчас " + age3 + ", можно кататься на аттракционе в сопровождении");
+            } else {
+                if (age3 > 14) {
+                    System.out.println("Если тебе сейчас " + age3 + ", то тебе можно без сопровождения взрослого");
+                }
+
+            }
+        }
+
+        //Task 6
+        int passengers = 110;
+        if (passengers < 60) {
+            System.out.println("Есть сидячие места");
+        } else {
+            if (passengers > 60 && passengers < 102) {
+                System.out.println("Есть стоячие места");
+            } else {
+                if (passengers > 102) {
+                    System.out.println("Местов нема");
+                }
+
+            }
+        }
+        // Task 7
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        if (three > two && three > one) {
+            System.out.println("three больше чем two  и  three больше чем one");
+        } else {
+            if (two > one) {
+            }
+            System.out.println("two больше чем one");
+        }
     }
 }
+
+        
+
+
+
