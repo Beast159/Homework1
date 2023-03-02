@@ -252,20 +252,18 @@ public class Main {
             }
         }
         // Task 7
-        int one = 1;
-        int two = 2;
-        int three = 3;
-        if (three > two && three > one) {
-            System.out.println("three больше чем two  и  three больше чем one");
+        int one = 2332;
+        int two = 4553;
+        int three = 5455474;
+        if (three > two) {
+            System.out.println("Максимальное число " + three);
         } else {
             if (two > one) {
+                System.out.println("Максимальное число " + two);
+            } else {
+                    System.out.println("Максимальное число " + one);
+                }
             }
-            System.out.println("two больше чем one");
         }
     }
-}
-
-        
-
-
 
