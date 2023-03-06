@@ -396,7 +396,37 @@ public class Main {
         }
 
 
+
+        // Task 8
+        int salary = 29000;
+        int total = 0;
+        for (int i = 1; i <= 12; i++) {
+            total = total + salary;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + total);
+        }
+
+
+        // Task 9
+        int salary1 = 29000;
+        int total1 = 0;
+        for (int i = 1; i <= 12; i++) {
+            total1 = total1 + total1/100;
+            total1 = total1 + salary1;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + total1);
+        }
+
+        // Task 10
+
+        int twoo = 2;
+        int factor = 0;
+        for(int i = 2; i <= 20 ; i = i + 2) {
+            factor = factor +1;
+
+                System.out.println(twoo + " * " + factor + " = " + i);
+                    }
+
     }
+
 }
 
 
