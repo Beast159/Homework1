@@ -72,7 +72,7 @@ public class Main {
         // Task 2
         byte g = 67;
         short h = -159;
-        int i = 569;
+        int ii = 569;
         int j = 27897;
         long k = 987_678_965_549L;
         float l = 27.12f;
@@ -286,7 +286,6 @@ public class Main {
             if (clientOS1 == 0 && clientDeviceYear >= 2015) {
                 System.out.println("Установите обычную версию приложения для iOS  по ссылке");
             }
-
             if (clientOS1 == 1 && clientDeviceYear < 2015) {
                 System.out.println("Установите облегченную версию приложения для Android  по ссылке");
             } else {
@@ -350,6 +349,53 @@ public class Main {
             default:
                 System.out.println("Такого месяца не существует");
         }
+
+
+        // Циклы Task 1.
+
+        for(int i = 1; i < 11; i++){
+            System.out.println("Итерация цикла " + i);
+        }
+
+
+        //Task 2
+        for(int i = 10; i > 0; i--) {
+            System.out.println("Итерация цикла " + i);
+        }
+
+
+        // Task 3
+        for(int i = 0; i < 17 ; i = i + 2) {
+            System.out.println("Итерация цикла " + i);
+        }
+
+
+        // Task 4
+        for(int i = 10; i > -10; i--) {
+            System.out.println("Итерация цикла " + i);
+        }
+
+
+        //Task 5
+        for(int i = 1904; i < 2096 ; i = i + 4) {
+            System.out.println(i + " високосный год" );
+        }
+
+
+        //Task 6
+        for(int i = 7; i <= 98 ; i = i + 7) {
+            System.out.println("Итерация цикла " + i);
+        }
+
+
+
+
+        //Task 7
+        for(int i = 1; i <= 512 ; i = i * 2) {
+            System.out.println("Итерация цикла " + i);
+        }
+
+
     }
 }
 
